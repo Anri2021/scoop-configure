@@ -27,7 +27,5 @@ jobs:
         with:
           files: |
             *.ps1
-            *.conf
-            *.yaml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
